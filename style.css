@@ -1,0 +1,29 @@
+/* font link */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@100;300;400&display=swap");
+
+body {
+  font-family: "PT Sans", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+.ui-nav {
+  display: flex;
+  margin: 1rem 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+ul li {
+  margin: 1rem;
+}
+.discription {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
