@@ -1,29 +1,84 @@
 /* font link */
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  font-family: "PT Sans", sans-serif;
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif;
 }
 
+/* variables */
+:root {
+  --primary-color: rgb(97, 1, 238);
+  --secondary-color: rgb(102, 102, 102);
+
+  --success-color: rgb(25, 135, 83);
+
+  --warning-color: rgb(255, 192, 7);
+
+  --danger-color: rgb(220, 52, 68);
+  --light-purple: rgb(219, 196, 253);
+
+  --hover-color-blue: #058ce0;
+
+  --light-blue: rgb(16, 202, 240);
+
+  --light-gray: rgb(210, 210, 210);
+  --dark-gray: rgb(75, 75, 75);
+
+  --main-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --dark-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* home navbar */
 .ui-nav {
   display: flex;
   margin: 1rem 5rem;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 ul {
   display: flex;
   list-style: none;
 }
-ul li {
-  margin: 1rem;
+.nav-item {
+  margin: 0.5rem;
+  cursor: pointer;
 }
-.discription {
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  padding: 0.4rem 1rem;
+  background-color: white;
+  border-radius: 4px;
+  transition: 0.4s;
+  font-weight: 400;
+}
+.nav-item a:hover {
+  filter: brightness(85%);
+}
+
+.intro-section {
   display: flex;
   flex-direction: column;
-  height: 60vh;
   justify-content: center;
   align-items: center;
+  height: 80vh;
+}
+
+/* typo */
+.main-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  cursor: default;
+}
+.sub-heading {
+  font-size: 0.9rem;
+  padding: 1rem 1rem;
+  color: var(--dark-gray);
+  cursor: default;
 }
