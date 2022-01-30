@@ -117,10 +117,6 @@ body {
   display: none;
 }
 
-.code-snippet {
-  /* margin-left: 3rem; */
-}
-
 /* media query */
 
 @media only screen and (max-width: 600px) {
