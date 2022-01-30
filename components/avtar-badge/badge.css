@@ -1,0 +1,50 @@
+@import url(../../style.css);
+.badge {
+  position: relative;
+  font-size: 14px;
+  line-height: 0;
+  font-weight: 500;
+  padding: 3px 7px;
+  border-radius: 50%;
+  top: -0.7rem;
+  left: -0.6rem;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.left-badge {
+  left: 0.6rem;
+}
+.l-badge {
+  font-size: 18px;
+  padding: 0.28rem 0.6rem;
+}
+
+.badge-prime {
+  background-color: var(--primary-color);
+}
+
+.badge-red {
+  background-color: var(--danger-color);
+}
+.badge-button {
+  padding: 0.4rem 0.6rem;
+  border-radius: 2px;
+  box-shadow: var(--main-box-shadow);
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.badge-button:hover {
+  filter: brightness(85%);
+}
+.hidden {
+  display: none;
+}
+
+.demo-component-typo {
+  padding: 2rem;
+}
+.demo-component-typo span {
+  margin: 0.4rem;
+}
