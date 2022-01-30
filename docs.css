@@ -10,16 +10,7 @@ body {
   margin: 0;
   padding: 0;
 }
-/* media query */
 
-@media only screen and (max-width: 600px) {
-  html {
-    font-size: 75%;
-  }
-  .side-bar {
-    display: none;
-  }
-}
 :root {
   --primary-color: rgb(97, 1, 238);
   --secondary-color: rgb(102, 102, 102);
@@ -126,6 +117,25 @@ body {
   display: none;
 }
 
-.code-snipent {
-  margin-left: 3rem;
+/* media query */
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 75%;
+  }
+  .side-bar {
+    display: none;
+  }
+  .main-box {
+    margin: 0;
+  }
+  .doc-contant {
+    margin: 0;
+  }
+  .ui-nav {
+    margin: 1rem 1rem;
+  }
+  .code-snippet {
+    display: none;
+  }
 }
