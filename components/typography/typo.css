@@ -20,3 +20,8 @@ h6 {
 p {
   font-size: 0.9rem;
 }
+
+
+.demo-component-typo{
+  flex-direction: column;
+}
