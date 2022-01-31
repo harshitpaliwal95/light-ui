@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="avtar.css" />
+    <link rel="stylesheet" href="alert.css" />
+
     <link rel="stylesheet" href="../../docs.css" />
     <title>Light UI</title>
   </head>
@@ -28,68 +29,58 @@
         <div class="sidebar-item">
           <a class="link-text" href="../typography/typo.html">Typography</a>
         </div>
-        <div class="sidebar-item"><a class="link-text" href="#">Avatar</a></div>
         <div class="sidebar-item">
-          <a class="link-text" href="badge.html">Badge</a>
+          <a class="link-text" href="../avtar-badge/avtar.html">Avatar</a>
         </div>
         <div class="sidebar-item">
-          <a class="link-text" href="../alert-btn/alert.html">Alert</a>
+          <a class="link-text" href="../avtar-badge/badge.html">Badge</a>
         </div>
         <div class="sidebar-item">
-          <a class="link-text" href="../alert-btn/button.html">Button</a>
+          <a class="link-text" href="#">Alert</a>
+        </div>
+        <div class="sidebar-item">
+          <a class="link-text" href="button.html">Button</a>
         </div>
       </div>
       <!-- docs side bar -->
       <!-- docs main contant -->
       <div class="doc-contant">
         <div class="docs-info">
-          <div class="docs-heading">Avatar</div>
+          <div class="docs-heading">Alert</div>
           <div class="docs-sub-heading">
-            Avatars are user profile pictures, usually found in circular shapes.
-            Avatars can be used for 'container' objects — projects, spaces,
-            repositories, etcetera — to give them a recognisable visual
-            identity.
+            Alerts are used to attract user's attention for important
+            information without interrupting the user's flow.
           </div>
         </div>
         <div class="docs-info">
-          <div class="docs-heading doc-m-heading">Round Avatar</div>
+          <div class="docs-heading doc-m-heading">Simple Alert</div>
           <div class="sub-heading">
-            Profile Avatars can be created using the class 'avatar', inside the
-            img tag.
+            Simple Alerts can be created using alert class, followed by the
+            variant name.
           </div>
           <div class="demo-component-typo">
-            <span>
-              <img
-                class="avatar sm"
-                src="/assets/img_avatar2.png"
-                alt=""
-                srcset=""
-              />
+            <span class="alert">
+              <strong>Primary!</strong> A simple primary alert—check it out!
             </span>
-            <span>
-              <img
-                class="avatar md"
-                src="/assets/img_avatar2.png"
-                alt=""
-                srcset=""
-              />
+            <span class="alert alert-secondary">
+              <strong>Secondary!</strong>
+              A simple alert—check it out!
             </span>
-            <span>
-              <img
-                class="avatar lg"
-                src="/assets/img_avatar2.png"
-                alt=""
-                srcset=""
-              />
+            <span class="alert alert-success">
+              <strong>Success!</strong>
+              A simple alert—check it out!
+            </span>
+            <span class="alert alert-danger">
+              <strong>Danger!</strong> A simple alert—check it out!
             </span>
           </div>
           <!-- code snipet -->
           <div class="code-snippet">
             <iframe
-              src="https://carbon.now.sh/embed/GQBJlRev9rgnKQyiNSb7"
+              src="https://carbon.now.sh/embed/KivKGM8tOPpKTKTWfc11"
               style="
-                width: 690px;
-                height: 242px;
+                width: 100%;
+                height: 347px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -100,43 +91,34 @@
           </div>
         </div>
         <div class="docs-info">
-          <div class="docs-heading doc-m-heading">Square Avatar</div>
-          <div class="sub-heading">
-            Adding a class 'square' to existing class, will generate a square
-            shaped avatar.
+          <div class="docs-heading doc-m-heading">Outline Alert</div>
+          <div class="docs-sub-heading">
+            Outline alerts are created by using alert class, followed by
+            outline-variant
           </div>
+
           <div class="demo-component-typo">
-            <span>
-              <img
-                class="avatar square sm"
-                src="/assets/img_avatar.png"
-                alt=""
-                srcset=""
-              />
+            <span class="alert alert-outline">
+              <strong>Primary!</strong> A simple primary alert—check it out!
             </span>
-            <span>
-              <img
-                class="avatar square md"
-                src="/assets/img_avatar.png"
-                alt=""
-                srcset=""
-              />
+            <span class="alert alert-outline-secondary">
+              <strong>Secondary!</strong>
+              A simple alert—check it out!
             </span>
-            <span>
-              <img
-                class="avatar square lg"
-                src="/assets/img_avatar.png"
-                alt=""
-                srcset=""
-              />
+            <span class="alert alert-outline-success">
+              <strong>Success!</strong>
+              A simple alert—check it out!
+            </span>
+            <span class="alert alert-outline-danger">
+              <strong>Danger!</strong> A simple alert—check it out!
             </span>
           </div>
           <div class="code-snippet">
             <iframe
-              src="https://carbon.now.sh/embed/mNSfNFLFxlWoSB4BIasZ"
+              src="https://carbon.now.sh/embed/z8aQRxsg7p5IMpzaRfyR"
               style="
-                width: 749px;
-                height: 242px;
+                width: 100%;
+                height: 223px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -150,4 +132,5 @@
       <!-- docs main contant -->
     </div>
   </body>
+  <script src="badge.js"></script>
 </html>
