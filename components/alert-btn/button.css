@@ -141,3 +141,25 @@ button {
   font-size: 1.4rem;
   line-height: 1;
 }
+
+/* floating btn */
+.floating-btn {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 1.8rem;
+  border-radius: 50%;
+  color: white;
+  background-color: var(--primary-color);
+  z-index: var(--z-index-3);
+  /* position: fixed; */
+  bottom: 1rem;
+  right: 1rem;
+}
+.btn-icon:hover {
+  filter: brightness(85%);
+}
