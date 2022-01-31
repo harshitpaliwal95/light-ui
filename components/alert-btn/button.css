@@ -1,0 +1,152 @@
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+/* Default button */
+.btn {
+  padding: 0.6rem 1rem;
+  background-color: var(--dark-gray);
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  border-radius: 4px;
+  transition: 0.4s;
+  box-shadow: var(--main-box-shadow);
+  cursor: pointer;
+  text-align: center;
+}
+.btn:hover {
+  filter: brightness(85%);
+}
+
+/* link text */
+.link-text {
+  color: inherit;
+  outline: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* primary btn */
+.btn-primary {
+  background-color: var(--primary-color);
+}
+.btn-primary:focus {
+  box-shadow: var(--light-purple) 0px 0px 0px 3px;
+}
+
+/* success btn */
+.btn-success {
+  background-color: var(--success-color);
+}
+.btn-success:focus {
+  box-shadow: rgba(0, 128, 0, 0.619) 0px 0px 0px 3px;
+}
+/* error btn */
+.btn-error {
+  background-color: var(--danger-color);
+}
+.btn-error:focus {
+  box-shadow: rgba(255, 0, 0, 0.473) 0px 0px 0px 3px;
+}
+/* warning btn */
+.btn-warning {
+  color: black;
+  background-color: var(--warning-color);
+}
+.btn-warning:focus {
+  box-shadow: rgba(255, 193, 7, 0.452) 0px 0px 0px 3px;
+}
+/* info btn */
+
+.btn-info {
+  color: black;
+  background-color: var(--light-blue);
+}
+.btn-info:focus {
+  box-shadow: rgba(16, 203, 240, 0.507) 0px 0px 0px 3px;
+}
+
+.btn-link {
+  color: white;
+  text-decoration: none;
+  line-height: normal;
+}
+/* dark btn */
+.btn-dark {
+  background-color: rgba(0, 0, 0, 0.918);
+}
+
+/* diable btn */
+.btn-disable {
+  cursor: default;
+  opacity: 0.3;
+}
+.btn-disable:hover {
+  filter: none;
+}
+
+.btn-disable:focus {
+  box-shadow: none;
+}
+/* large btn */
+.btn-lg {
+  font-size: 1.1rem;
+  padding: 0.9rem 1.4rem;
+}
+/* small btn */
+.btn-small {
+  font-size: 0.7rem;
+  padding: 0.6rem 0.8rem;
+}
+
+/* button outline */
+.btn-outline {
+  background-color: white;
+  color: var(--dark-gray);
+  border: 1px solid;
+  box-shadow: none;
+}
+.btn-outline-prime {
+  color: var(--primary-color);
+}
+.btn-outline-prime:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+.btn-outline-success {
+  color: var(--success-color);
+}
+.btn-outline-success:hover {
+  background-color: var(--success-color);
+  color: white;
+}
+.btn-outline-error {
+  color: var(--danger-color);
+}
+.btn-outline-error:hover {
+  background-color: var(--danger-color);
+  color: white;
+}
+
+/* icon btn */
+.btn-icon {
+  border-radius: 999px;
+  background-color: transparent;
+  padding: 0.5rem 0.6rem;
+
+  cursor: pointer;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.demo-component-typo {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.demo-component-typo span {
+  margin: 0.4rem;
+}
