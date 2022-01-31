@@ -139,3 +139,14 @@ body {
     display: none;
   }
 }
+
+.demo-component-typo {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  background-color: rgba(128, 128, 128, 0.068);
+}
+.demo-component-typo span {
+  margin: 0.4rem;
+}

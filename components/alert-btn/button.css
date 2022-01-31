@@ -141,12 +141,3 @@ button {
   font-size: 1.4rem;
   line-height: 1;
 }
-
-.demo-component-typo {
-  padding: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-}
-.demo-component-typo span {
-  margin: 0.4rem;
-}
