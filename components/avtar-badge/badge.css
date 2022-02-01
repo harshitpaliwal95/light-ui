@@ -42,3 +42,21 @@
   display: none;
 }
 
+/* avtar badge css */
+.badge-avatar {
+  position: relative;
+  width: max-content;
+}
+.av-badge {
+  top: 26px;
+  left: 38px;
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: green;
+}
+.av-offline {
+  background-color: gray;
+}
