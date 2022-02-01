@@ -1,0 +1,33 @@
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 1px solid;
+  padding: 0.6rem 0.7rem;
+  float: left;
+  font-size: 0.8rem;
+  margin: 5px 0;
+  width: 80%;
+  transition: 0.3s;
+  outline: none;
+  border-radius: 3px;
+}
+
+.input-box.error input {
+  border: 1px solid var(--danger-color);
+}
+.error {
+  color: var(--danger-color);
+}
+
+.success {
+  color: var(--success-color);
+}
+.input-box.success input {
+  border: 1px solid var(--success-color);
+}
+.demo-component-typo {
+  flex-direction: column;
+}
