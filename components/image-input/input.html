@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../../assets/light-favicon.png"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="typo.css" />
+    <link rel="stylesheet" href="input.css" />
+
     <link rel="stylesheet" href="../../docs.css" />
     <title>Light UI</title>
   </head>
@@ -26,14 +32,12 @@
       <div class="side-bar">
         <div class="sidebar-title">Components</div>
         <div class="sidebar-item">
-          <a class="link-text" href="#">Typography</a>
+          <a class="link-text" href="../typography/typo.html">Typography</a>
         </div>
         <div class="sidebar-item">
-          <a class="link-text" href="../avtar-badge/avtar.html">Avatar</a>
+          <a class="link-text" href="avtar.html">Avatar</a>
         </div>
-        <div class="sidebar-item">
-          <a class="link-text" href="../avtar-badge/badge.html">Badge</a>
-        </div>
+        <div class="sidebar-item"><a class="link-text" href="#">Badge</a></div>
         <div class="sidebar-item">
           <a class="link-text" href="../alert-btn/alert.html">Alert</a>
         </div>
@@ -41,53 +45,46 @@
           <a class="link-text" href="../alert-btn/button.html">Button</a>
         </div>
         <div class="sidebar-item">
-          <a class="link-text" href="../image-input/image.html">Image</a>
+          <a class="link-text" href="image.html">Image</a>
         </div>
         <div class="sidebar-item">
-          <a class="link-text" href="../image-input/input.html">Input</a>
+          <a class="link-text" href="">Input</a>
+        </div>
+        <div class="sidebar-item">
+          <a class="link-text" href="../card/card.html">Card</a>
         </div>
       </div>
       <!-- docs side bar -->
       <!-- docs main contant -->
       <div class="doc-contant">
         <div class="docs-info">
-          <div class="docs-heading">Typography</div>
+          <div class="docs-heading">Inputs</div>
           <div class="docs-sub-heading">
-            Documentation and examples for
-            <span class="highlight">Light UI</span> typography, including global
-            settings, headings, body text, lists, and more.
+            Inputs are necessary for user interaction with the website. Inputs
+            are used to take information from the user, and then save the data
+            to the server, accordingly.
           </div>
         </div>
         <div class="docs-info">
-          <div class="docs-heading doc-m-heading">Headings</div>
+          <div class="docs-heading doc-m-heading">Label Inputs</div>
           <div class="sub-heading">
-            All HTML headings, <span class="highlight">h1</span> through
-            <span class="highlight">h6</span> , are available.
+            Create beautifull and simple
+            <span class="highlight">input box</span>
           </div>
+
           <div class="demo-component-typo">
-            <span> <h1>h1. heading</h1> </span>
-            <span> <h2>h2. heading</h2> </span>
-            <span> <h3>h3. heading</h3> </span>
-            <span> <h4>h4. heading</h4> </span>
-            <span> <h5>h5. heading</h5> </span>
-            <span> <h6>h6. heading</h6> </span>
-            <span>
-              <p>
-                <strong>Pragraph </strong>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                ut culpa quia pariatur est molestiae accusamus harum, quis
-                repellendus voluptatem fugiat tempora voluptate inventore
-                quibusdam rem distinctio molestias quo? Atque!
-              </p>
-            </span>
+            <div class="input-box">
+              <label for="input">User Name -</label>
+              <input type="text" />
+            </div>
           </div>
           <!-- code snipet -->
           <div class="code-snippet">
             <iframe
-              src="https://carbon.now.sh/embed/srvaI4nZr99uKE7q5J2b"
+              src="https://carbon.now.sh/embed/y2cj6dSvL3dbp9N2ZmYQ"
               style="
-                width: 816px;
-                height: 391px;
+                width: 100%;
+                height: 316px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -98,17 +95,30 @@
           </div>
         </div>
         <div class="docs-info">
-          <div class="docs-heading doc-m-heading">Font Family</div>
+          <div class="docs-heading doc-m-heading">Form validation styles</div>
           <div class="sub-heading">
-            <span class="highlight">Light UI</span> uses Roboto, as its default
-            font, which is a free font available at Google Fonts.
+            In need of Error or success layout add error or success class on
+            input box
+          </div>
+
+          <div class="demo-component-typo">
+            <div class="input-box error">
+              <label for="input">Password -</label>
+              <input type="text" />
+              <label for="error">Wrong Password</label>
+            </div>
+            <span></span>
+            <div class="input-box success">
+              <label for="input">success -</label>
+              <input type="text" />
+            </div>
           </div>
           <div class="code-snippet">
             <iframe
-              src="https://carbon.now.sh/embed/kJoZOHFusutp6FQlgep1"
+              src="https://carbon.now.sh/embed/N5wTr3dhELFy3r21sEAb"
               style="
-                width: 816px;
-                height: 391px;
+                width: 100%;
+                height: 298px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -122,4 +132,5 @@
       <!-- docs main contant -->
     </div>
   </body>
+  <script src="badge.js"></script>
 </html>

@@ -1,0 +1,7 @@
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+.round-img {
+  border-radius: 50%;
+}
