@@ -135,9 +135,9 @@ body {
   .ui-nav {
     margin: 1rem 1rem;
   }
-  .code-snippet {
+  /* .code-snippet {
     display: none;
-  }
+  } */
 }
 
 .demo-component-typo {
