@@ -68,7 +68,7 @@ img {
 .card-icon {
   border-radius: 50%;
   padding: 0.5rem 0.6rem;
-  transition: 0.8s;
+  transition: 0.3s;
 }
 /* hover effect for action btn */
 .card-icon:hover {
