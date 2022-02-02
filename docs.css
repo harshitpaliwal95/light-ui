@@ -135,14 +135,15 @@ body {
   .ui-nav {
     margin: 1rem 1rem;
   }
-  .code-snippet {
+  /* .code-snippet {
     display: none;
-  }
+  } */
 }
 
 .demo-component-typo {
   padding: 2rem;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 1rem;
   background-color: rgba(128, 128, 128, 0.068);
