@@ -21,7 +21,36 @@ p {
   font-size: 0.9rem;
 }
 
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-lg {
+  font-size: 1.2rem;
+}
+/* heading */
+.heading-lg {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.heading-x-lg {
+  font-size: 1.8rem;
+}
+.heading-sm {
+  font-size: 1.2rem;
+}
 
-.demo-component-typo{
+.gray-text {
+  color: var(--dark-gray);
+}
+.text-medium {
+  font-size: 1rem;
+}
+.demo-component-typo {
   flex-direction: column;
 }

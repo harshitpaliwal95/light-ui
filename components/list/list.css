@@ -1,0 +1,80 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+
+  background-color: white;
+  border-radius: 2px;
+  width: 14rem;
+  padding-left: 0;
+}
+
+.list-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.199);
+  padding: 1rem 1rem;
+}
+.list li {
+  padding: 0.8rem 2rem;
+  font-weight: 400;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.list li:hover {
+  color: #058ce0;
+}
+/* link text */
+.link-text:hover {
+  color: #058ce0;
+}
+.link-text {
+  text-decoration: none;
+  color: inherit;
+}
+
+.check-list-item {
+  display: flex;
+  align-items: center;
+
+  padding: 0.8rem 2rem;
+  font-weight: 400;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.check-list-item:hover {
+  color: #058ce0;
+}
+.check-list-item input {
+  margin: 0rem 1rem 0rem 0rem;
+}
+.notification-list {
+  display: flex;
+  flex-direction: row;
+  width: 30rem;
+  border-radius: 6px;
+  border: 0.5px solid var(--light-gray);
+  box-shadow: var(--main-box-shadow);
+  background-color: white;
+  margin: 1.5rem;
+}
+.notify-img {
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+}
+.notify-contant {
+  padding: 1rem;
+}
+.notify-contant p {
+  margin-bottom: 0.4rem;
+}
+.notify-time {
+  color: rgba(128, 128, 128, 0.575);
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
