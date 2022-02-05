@@ -1,7 +1,3 @@
-ul {
-  list-style: none;
-}
-
 .list {
   display: flex;
   flex-direction: column;
