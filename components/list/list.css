@@ -48,3 +48,33 @@
 .check-list-item input {
   margin: 0rem 1rem 0rem 0rem;
 }
+.notification-list {
+  display: flex;
+  flex-direction: row;
+  width: 30rem;
+  border-radius: 6px;
+  border: 0.5px solid var(--light-gray);
+  box-shadow: var(--main-box-shadow);
+  background-color: white;
+  margin: 1.5rem;
+}
+.notify-img {
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+}
+.notify-contant {
+  padding: 1rem;
+}
+.notify-contant p {
+  margin-bottom: 0.4rem;
+}
+.notify-time {
+  color: rgba(128, 128, 128, 0.575);
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
