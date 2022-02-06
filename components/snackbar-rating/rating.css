@@ -1,0 +1,27 @@
+.rating-box {
+  display: flex;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.123);
+  padding: 0.4rem;
+  font-size: 0.8rem;
+  cursor: default;
+}
+.rating-box:hover {
+  box-shadow: var(--outline-boxshadow);
+}
+
+.rating-box-sm {
+  padding: 0.4rem;
+  height: 1rem;
+}
+.rating-box-sm div {
+  margin: 0.15rem;
+}
+
+.rating-star {
+  display: flex;
+  align-items: center;
+}
+.rating-star i {
+  margin: 0.2rem;
+}

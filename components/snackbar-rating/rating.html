@@ -9,8 +9,8 @@
       href="../../assets/light-favicon.png"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="list.css" />
-    <link rel="stylesheet" href="../typography/typo.css" />
+    <link rel="stylesheet" href="rating.css" />
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="../../docs.css" />
     <title>Light UI</title>
@@ -57,48 +57,48 @@
           <a class="link-text" href="../card/card.html">Card</a>
         </div>
         <div class="sidebar-item">
-          <a class="link-text" href="#">List</a>
+          <a class="link-text" href="../list/list.html">List</a>
         </div>
         <div class="sidebar-item">
-          <a class="link-text" href="../navigation/navigation.html">
-            Navigation
-          </a>
-        </div>
-        <div class="sidebar-item">
-          <a class="link-text" href="../snackbar-rating/snackbar.html"
-            >Snackbar</a
+          <a class="link-text" href="../navigation/navigation.html"
+            >Navigation</a
           >
         </div>
         <div class="sidebar-item">
-          <a class="link-text" href="../snackbar-rating/rating.html">Rating</a>
+          <a class="link-text" href="snackbar.html">Snackbar</a>
+        </div>
+        <div class="sidebar-item">
+          <a class="link-text" href="#">Rating</a>
         </div>
       </div>
       <!-- docs side bar -->
       <!-- docs main contant -->
       <div class="doc-contant">
         <div class="docs-info">
-          <div class="docs-heading">List</div>
+          <div class="docs-heading">Ratings</div>
           <div class="docs-sub-heading">
-            Lists can be used at so many places, navigation bar, stacked
-            notifications, article pages, etc.
+            Rating components can be used as read-only badge or in reviews
+            section. Can be used in reviews section as form too.
           </div>
         </div>
         <div class="docs-info">
-          <div class="docs-heading doc-m-heading">Simple List Groups</div>
-
           <div class="demo-component-typo">
-            <ul class="list">
-              <div class="list-title">List</div>
-              <li><a class="link-text" href="#">Car</a></li>
-              <li><a class="link-text" href="#">Bike</a></li>
-              <li><a class="link-text" href="#">Plan</a></li>
-              <li><a class="link-text" href="#">boat</a></li>
-            </ul>
+            <div class="rating-box">
+              <span>4.2 <i class="bi bi-star-fill"></i></span>
+              <span>|</span>
+              <span>196 Ratings</span>
+            </div>
+            <span></span>
+            <div class="rating-box rating-box-sm">
+              <div>4.2 <i class="bi bi-star-fill"></i></div>
+              <div>|</div>
+              <div>5</div>
+            </div>
           </div>
           <!-- code snipet -->
           <div class="code-snippet">
             <iframe
-              src="https://carbon.now.sh/embed/IigqyOvCvVeHLLrZm9li"
+              src="https://carbon.now.sh/embed/rtNB0iJK55J5zISX1Y0M"
               style="
                 width: 100%;
                 height: 316px;
@@ -112,75 +112,29 @@
           </div>
         </div>
         <div class="docs-info">
-          <div class="docs-heading doc-m-heading">Checkbox List</div>
+          <div class="docs-heading doc-m-heading">Read Only Ratings</div>
 
           <div class="demo-component-typo">
-            <div class="list">
-              <div class="list-title">Checkbox List</div>
-              <div class="check-list-item">
-                <input name="checkbox" type="checkbox" unchecked /> BMW
-              </div>
-
-              <div class="check-list-item">
-                <input name="checkbox" type="checkbox" unchecked /> Audi
-              </div>
-              <div class="check-list-item">
-                <input name="checkbox" type="checkbox" unchecked /> Nissan
+            <div class="rating-star">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"> </i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <i class="bi bi-star"></i>
+              <div class="rating-box rating-box-sm">
+                <div>3 <i class="bi bi-star-fill"></i></div>
+                <div>|</div>
+                <div>5</div>
               </div>
             </div>
           </div>
+          <!-- code snipet -->
           <div class="code-snippet">
             <iframe
-              src="https://carbon.now.sh/embed/o8JTtnG1O2z3JSgTO5xo"
+              src="https://carbon.now.sh/embed/gUXjucmJ355UA8tKbnqe"
               style="
                 width: 100%;
-                height: 298px;
-                border: 0;
-                transform: scale(1);
-                overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-        </div>
-        <div class="docs-info">
-          <div class="docs-heading doc-m-heading">
-            Example of Notification Stacked List
-          </div>
-
-          <div class="demo-component-typo">
-            <div class="notification-list">
-              <div class="notify-img">
-                <img src="../../assets/jorden-demo.jpeg" alt="demo img" />
-              </div>
-              <div class="notify-contant">
-                <p class="heading-lg">Air Jorden 4 Available!!!</p>
-
-                <p class="gray-text">Price - 9,999 Only</p>
-                <p class="gray-text">Buy now!</p>
-                <p class="notify-time">2 hour ago</p>
-              </div>
-            </div>
-            <div class="notification-list">
-              <div class="notify-img">
-                <img src="../../assets/jorden-demo.jpeg" alt="demo img" />
-              </div>
-              <div class="notify-contant">
-                <p class="heading-lg">Air Jorden 4 Available!!!</p>
-
-                <p class="gray-text">Price - 9,999 Only</p>
-                <p class="gray-text">Buy now!</p>
-                <p class="notify-time">2 hour ago</p>
-              </div>
-            </div>
-          </div>
-          <div class="code-snippet">
-            <iframe
-              src="https://carbon.now.sh/embed/UHG0HOkbK7eNriAf6Zh2"
-              style="
-                width: 100%;
-                height: 298px;
+                height: 391px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -194,4 +148,5 @@
       <!-- docs main contant -->
     </div>
   </body>
+  <script src="./snackbar.js"></script>
 </html>
