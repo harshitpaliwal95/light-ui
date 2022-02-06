@@ -1,0 +1,139 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* header */
+header {
+  width: 100%;
+}
+/* user account */
+.user-ac {
+  display: flex;
+
+  background-color: rgba(128, 128, 128, 0.205);
+
+  line-height: 1;
+}
+.rightside {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.user-ac span {
+  margin: 0.6rem 0.2rem;
+}
+/* button */
+.user-ac-btn {
+  margin: 0.6rem;
+  cursor: pointer;
+}
+.user-ac-btn:hover {
+  opacity: 0.5;
+}
+.user-ac-btn p {
+  font-weight: 400;
+  letter-spacing: -0.2px;
+}
+
+/* main navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid; */
+}
+.left-nav {
+  display: flex;
+}
+.logo {
+  margin-left: 0.8rem;
+  height: 5rem;
+  width: 6rem;
+}
+
+/* center item  */
+.nav-center {
+  margin: auto;
+}
+.nav-center li {
+  margin: 1rem;
+  font-size: 0.9rem;
+  padding-bottom: 0.3rem;
+}
+.nav-center li:hover {
+  opacity: 0.6;
+}
+/* left nav */
+.right-nav {
+  margin-right: 0.7rem;
+  display: flex;
+
+  align-items: center;
+}
+.btn-icon {
+  border-radius: 999px;
+  padding: 0.4rem;
+  margin: 0.2rem;
+  transition: 0.4s;
+}
+.btn-icon:hover {
+  background-color: var(--light-gray);
+}
+
+/* search bar */
+
+.search-navbar input {
+  background-color: rgba(128, 128, 128, 0.089);
+  border: 0;
+  border-radius: 20px;
+  padding: 0.5rem 0.5rem 0.5rem 2.6rem;
+  margin-right: 0.6rem;
+  width: 5rem;
+}
+.search-navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.search-navbar .btn-icon {
+  margin: 0;
+  position: absolute;
+  font-size: 1.2rem;
+  left: 0;
+}
+.burger {
+  display: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 75%;
+  }
+  .nav-center {
+    display: none;
+  }
+  .burger {
+    display: unset;
+  }
+  .rightside {
+    margin-right: 0.2rem;
+  }
+  .user-ac {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  html {
+    font-size: 75%;
+  }
+  .nav-center {
+    display: none;
+  }
+}
