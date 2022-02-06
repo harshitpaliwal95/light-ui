@@ -4,6 +4,7 @@
 }
 .snackbar {
   display: flex;
+
   background-color: var(--dark-gray);
   color: var(--light-gray);
   width: 25rem;
@@ -11,7 +12,6 @@
   line-height: 1.5;
   border-radius: 4px;
   margin: 6px;
-  z-index: 111;
 }
 
 .snackbar-left-btn {
@@ -52,11 +52,13 @@
 /* base line */
 .baseline-snackbar {
   position: absolute;
+  z-index: 99;
   bottom: 0;
   left: 0;
 }
 .center-snackbar {
   position: absolute;
+  z-index: 99;
   left: 50%;
   bottom: 0;
   transform: translate(-50%, 0%);
