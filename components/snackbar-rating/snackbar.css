@@ -1,0 +1,68 @@
+.snackbar-text {
+  font-size: 0.84rem;
+  font-weight: 400;
+}
+.snackbar {
+  display: flex;
+  background-color: var(--dark-gray);
+  color: var(--light-gray);
+  width: 25rem;
+  padding: 1rem;
+  line-height: 1.5;
+  border-radius: 4px;
+  margin: 6px;
+  z-index: 111;
+}
+
+.snackbar-left-btn {
+  display: flex;
+  margin-left: auto;
+}
+.snackbar-cancle-btn {
+  font-size: 1rem;
+  background-color: transparent;
+  font-weight: 300;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  padding: 0px 5px;
+}
+.snackbar-cancle-btn:hover {
+  filter: brightness(85%);
+}
+.snackbar-btn {
+  background-color: transparent;
+  font-weight: 300;
+  color: var(--snackbar-purple);
+  margin-right: 0.6rem;
+  cursor: pointer;
+}
+.snackbar-btn:hover {
+  filter: brightness(88%);
+}
+
+/* stacked */
+.stacked {
+  flex-direction: column;
+}
+.stacked-btn {
+  margin-top: 14px;
+}
+
+/* base line */
+.baseline-snackbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.center-snackbar {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0%);
+}
+
+/* hidden */
+.hidden {
+  display: none;
+}
