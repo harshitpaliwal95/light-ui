@@ -9,8 +9,7 @@
       href="../../assets/light-favicon.png"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="snackbar.css" />
-    <link rel="stylesheet" href="../alert-btn/button.css" />
+    <link rel="stylesheet" href="rating.css" />
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="../../docs.css" />
@@ -69,87 +68,73 @@
           <a class="link-text" href="snackbar.html">Snackbar</a>
         </div>
         <div class="sidebar-item">
-          <a class="link-text" href="rating.html">Rating</a>
+          <a class="link-text" href="#">Rating</a>
         </div>
       </div>
       <!-- docs side bar -->
       <!-- docs main contant -->
       <div class="doc-contant">
         <div class="docs-info">
-          <div class="docs-heading">Snackbars</div>
+          <div class="docs-heading">Ratings</div>
           <div class="docs-sub-heading">
-            Snackbars inform users of a process that an app has performed or
-            will perform. They appear temporarily, towards the bottom of the
-            screen. They shouldn’t interrupt the user experience, and they don’t
-            require user input to disappear.
+            Rating components can be used as read-only badge or in reviews
+            section. Can be used in reviews section as form too.
           </div>
         </div>
         <div class="docs-info">
           <div class="demo-component-typo">
-            <span>
-              <button class="btn btn-primary" onclick="show('baseline')">
-                BASELINE
-              </button>
-            </span>
-            <span>
-              <button class="btn btn-primary" onclick="show('leading')">
-                LEADING
-              </button>
-            </span>
-            <span>
-              <button class="btn btn-primary" onclick="show('stacked')">
-                STACKED
-              </button>
-            </span>
-            <!-- leading snackbar -->
-            <div class="leading-snackbar center-snackbar hidden">
-              <div class="snackbar">
-                <div class="snackbar-text">Can't send photo. Retry</div>
-                <div class="snackbar-left-btn">
-                  <button class="snackbar-btn">RETRY</button>
-                  <button class="snackbar-cancle-btn">
-                    <i class="bi bi-x-lg snackbar-cancle-btn"></i>
-                  </button>
-                </div>
-              </div>
+            <div class="rating-box">
+              <span>4.2 <i class="bi bi-star-fill"></i></span>
+              <span>|</span>
+              <span>196 Ratings</span>
             </div>
-            <!--  -->
-            <!-- baseline snackbar -->
-            <div class="baseline-snackbar hidden">
-              <div class="snackbar">
-                <div class="snackbar-text">Can't send photo. Retry</div>
-                <div class="snackbar-left-btn">
-                  <button class="snackbar-btn">RETRY</button>
-                  <button class="snackbar-cancle-btn">
-                    <i class="bi bi-x-lg snackbar-cancle-btn"></i>
-                  </button>
-                </div>
-              </div>
+            <span></span>
+            <div class="rating-box rating-box-sm">
+              <div>4.2 <i class="bi bi-star-fill"></i></div>
+              <div>|</div>
+              <div>5</div>
             </div>
-            <!--  -->
-            <!-- stacked snakbar -->
-            <div class="stacked-snackbar center-snackbar hidden">
-              <div class="snackbar stacked">
-                <div class="snackbar-text">
-                  This item already has the label "travel". You can add a new
-                  label.
-                </div>
-                <div class="snackbar-left-btn stacked-btn">
-                  <button class="snackbar-btn">ADD A NEW LABLE</button>
-                  <button class="snackbar-cancle-btn">
-                    <i class="bi bi-x-lg snackbar-cancle-btn"></i>
-                  </button>
-                </div>
+          </div>
+          <!-- code snipet -->
+          <div class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed/rtNB0iJK55J5zISX1Y0M"
+              style="
+                width: 100%;
+                height: 316px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="docs-info">
+          <div class="docs-heading doc-m-heading">Read Only Ratings</div>
+
+          <div class="demo-component-typo">
+            <div class="rating-star">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"> </i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <i class="bi bi-star"></i>
+              <div class="rating-box rating-box-sm">
+                <div>3 <i class="bi bi-star-fill"></i></div>
+                <div>|</div>
+                <div>5</div>
               </div>
             </div>
           </div>
           <!-- code snipet -->
           <div class="code-snippet">
             <iframe
-              src="https://carbon.now.sh/embed/PodNIMw85FjmVfRHaAs3"
+              src="https://carbon.now.sh/embed/gUXjucmJ355UA8tKbnqe"
               style="
                 width: 100%;
-                height: 316px;
+                height: 391px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
