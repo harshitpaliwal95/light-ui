@@ -79,7 +79,9 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  margin-top: 4rem;
+  height: auto;
+  width: 100vw;
 }
 
 /* typo */
@@ -93,4 +95,12 @@ ul {
   padding: 1rem 1rem;
   color: var(--dark-gray);
   cursor: default;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+.links .heading-lg {
+  margin: 2rem;
 }
