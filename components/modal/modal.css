@@ -1,0 +1,36 @@
+.modal-box {
+  /* position: fixed; */
+  width: 30rem;
+  height: 14rem;
+
+  left: calc(-50vw + 50%);
+  right: calc(-50vw + 50%);
+  top: calc(-50vh + 50%);
+  bottom: calc(-10vh + 50%);
+  margin: auto;
+  z-index: 999;
+  background-color: white;
+  transition: 0.4s;
+  box-shadow: 0 0 490px rgba(0, 0, 0, 0.11);
+  transition: 0.8s;
+}
+
+.modal-head {
+  margin: 0.4rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--light-gray);
+}
+.modal-head button {
+  float: right;
+}
+.modal-contant {
+  margin: 1.5rem;
+}
+.modal-btn {
+  /* margin: 1rem; */
+  margin-right: 1rem;
+  float: right;
+}
+.modal-btn .btn {
+  margin: 0.2rem;
+}
