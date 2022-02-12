@@ -110,7 +110,7 @@ button {
   box-shadow: none;
 }
 .btn-outline:hover {
-  background-color: var(--dark-gray);
+  background-color: black;
   color: white;
 }
 
