@@ -1,5 +1,5 @@
 .modal-box {
-  /* position: fixed; */
+  position: fixed;
   width: 30rem;
   height: 14rem;
 
@@ -33,4 +33,7 @@
 }
 .modal-btn .btn {
   margin: 0.2rem;
+}
+.demo-component-typo .modal-box {
+  position: static;
 }

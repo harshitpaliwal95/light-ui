@@ -156,10 +156,13 @@ button {
   color: white;
   background-color: var(--primary-color);
   z-index: var(--z-index-3);
-  /* position: fixed; */
+  position: fixed;
   bottom: 1rem;
   right: 1rem;
 }
 .btn-icon:hover {
   filter: brightness(85%);
+}
+.demo-component-typo .floating-btn {
+  position: static;
 }

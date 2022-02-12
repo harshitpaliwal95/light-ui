@@ -1,0 +1,26 @@
+.grid-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.grid-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .grid-three {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 580px) {
+  .grid-two {
+    grid-template-columns: 1fr;
+  }
+  .grid-three {
+    grid-template-columns: 1fr;
+  }
+}
