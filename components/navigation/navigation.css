@@ -10,7 +10,7 @@ header {
 .user-ac {
   display: flex;
 
-  background-color: rgba(128, 128, 128, 0.205);
+  background-color: var(--light-gray-v2);
 
   line-height: 1;
 }
@@ -82,7 +82,7 @@ header {
 /* search bar */
 
 .search-navbar input {
-  background-color: rgba(128, 128, 128, 0.089);
+  background-color: var(--light-gray-v2);
   border: 0;
   border-radius: 20px;
   padding: 0.5rem 0.5rem 0.5rem 2.6rem;
