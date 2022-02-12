@@ -105,10 +105,15 @@ button {
 /* button outline */
 .btn-outline {
   background-color: white;
-  color: var(--dark-gray);
+  color: black;
   border: 1px solid;
   box-shadow: none;
 }
+.btn-outline:hover {
+  background-color: var(--dark-gray);
+  color: white;
+}
+
 .btn-outline-prime {
   color: var(--primary-color);
 }
