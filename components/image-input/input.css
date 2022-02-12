@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-input {
+.input-box input {
   border: 1px solid;
   padding: 0.6rem 0.7rem;
   float: left;
