@@ -136,4 +136,7 @@ img {
   .nav-center {
     display: none;
   }
+  .burger {
+    display: unset;
+  }
 }
