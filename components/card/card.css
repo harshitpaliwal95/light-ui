@@ -111,7 +111,7 @@ img {
   border-radius: 4px 0px 0px 0px;
 }
 .card-badge {
-  background-color: var(--primary-color);
+  background-color: black;
   color: white;
   padding: 0.2rem 0.4rem;
   margin: 0.4rem;
