@@ -122,6 +122,14 @@ img {
   cursor: pointer;
   top: 0;
 }
+/* cancle badge */
+.cancle-badge {
+  right: 0;
+  background-color: transparent;
+  box-shadow: none;
+  color: black;
+}
+
 .discount-tag {
   color: var(--danger-color);
 }

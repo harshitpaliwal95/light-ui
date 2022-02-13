@@ -60,10 +60,3 @@
 .av-offline {
   background-color: gray;
 }
-/* cancle badge */
-.cancle-badge {
-  right: 0;
-  background-color: transparent;
-  box-shadow: none;
-  color: black;
-}
