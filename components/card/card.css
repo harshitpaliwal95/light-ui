@@ -125,3 +125,9 @@ img {
 .discount-tag {
   color: var(--danger-color);
 }
+
+@media only screen and (max-width: 600px) {
+  .card-component {
+    width: 16rem;
+  }
+}
