@@ -128,6 +128,6 @@ img {
 
 @media only screen and (max-width: 600px) {
   .card-component {
-    width: 16rem;
+    width: 14.5rem;
   }
 }
