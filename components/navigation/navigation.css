@@ -5,6 +5,11 @@ a {
 /* header */
 header {
   width: 100%;
+  position: fixed;
+  margin-bottom: 2rem;
+  top: 0;
+  z-index: 111;
+  background-color: white;
 }
 /* user account */
 .user-ac {
@@ -139,4 +144,7 @@ img {
   .burger {
     display: unset;
   }
+}
+.demo-component-typo header {
+  position: unset;
 }
