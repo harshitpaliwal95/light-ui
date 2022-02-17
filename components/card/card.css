@@ -105,10 +105,34 @@ img {
   display: flex;
 }
 .card-side-img {
-  height: 7rem;
+  height: auto;
   width: 8rem;
-  margin-bottom: 0.2rem;
   border-radius: 4px 0px 0px 0px;
+}
+
+.cart-item .card-h3 {
+  margin-bottom: 3px;
+}
+
+.item-quantity {
+  display: flex;
+  align-items: center;
+  line-height: normal;
+}
+.item-quantity .btn-icon {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.card-comp-contant .btn {
+  margin: 8px 0px;
+}
+.quantity-number {
+  padding: 2px 8px;
+}
+/* price tag on card */
+.price-tag {
+  margin: 4px 0px;
 }
 .card-badge {
   background-color: black;
