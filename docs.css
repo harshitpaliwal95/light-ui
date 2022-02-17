@@ -78,6 +78,13 @@ body {
   color: var(--primary-color);
   background-color: var(--light-purple);
 }
+.link-text:active,
+.active {
+  font-weight: 500;
+  color: var(--primary-color);
+  background-color: var(--light-purple);
+}
+
 /* docs heading */
 .docs-heading {
   font-size: 2rem;
