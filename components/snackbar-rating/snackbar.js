@@ -16,4 +16,9 @@ function show(value) {
     baselineBar.classList.add("hidden");
     leadingBar.classList.add("hidden");
   }
+  setTimeout(() => {
+    baselineBar.classList.add("hidden");
+    leadingBar.classList.add("hidden");
+    stackedBar.classList.add("hidden");
+  }, 2000);
 }

@@ -62,6 +62,7 @@
   width: 10rem;
   height: 10rem;
   padding: 1rem;
+  object-fit: cover;
 }
 .notify-contant {
   padding: 1rem;
@@ -77,4 +78,10 @@
 img {
   height: 100%;
   width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .notification-list {
+    width: 25rem;
+    margin: 1rem 0;
+  }
 }
