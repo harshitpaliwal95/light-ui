@@ -101,7 +101,17 @@ ul {
   display: flex;
   flex-direction: column;
   margin: 2rem;
+  width: 50vw;
 }
 .links .heading-lg {
   margin: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .ui-nav {
+    margin: 0rem;
+  }
+  .links {
+    width: 80vw;
+  }
 }
