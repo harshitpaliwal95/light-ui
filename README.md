@@ -4,7 +4,7 @@ A lightweight, easy to use and clean component library
 
 ## Preview
 
-<img width="1438" alt="Screenshot 2022-02-11 at 10 33 23 PM" src="https://user-images.githubusercontent.com/60725346/153635726-1d98edb6-b33c-43fd-beac-4cfb879b32a0.png">
+![component-library](https://user-images.githubusercontent.com/60725346/154828757-e890ac8d-8c4a-414c-ba58-40fc4dcfe027.gif)
 
 ## Features
 
