@@ -17,6 +17,9 @@
   }
 }
 @media screen and (max-width: 580px) {
+  #card-comp-docs {
+    padding: 0.1rem;
+  }
   .grid-two {
     grid-template-columns: 1fr;
   }
