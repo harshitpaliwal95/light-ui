@@ -8,6 +8,7 @@ A lightweight, easy to use and clean component library
 
 ## Features
 
+- dark mode
 - Clean
 - Customizable
 - Faster
