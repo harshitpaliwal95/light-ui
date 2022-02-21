@@ -114,6 +114,9 @@ ul {
   .ui-nav {
     margin: 0rem;
   }
+  .nav-item {
+    margin: 0;
+  }
   .links {
     width: 80vw;
   }
