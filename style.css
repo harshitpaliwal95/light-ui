@@ -22,6 +22,9 @@ button {
 :root {
   --primary-color: rgb(97, 1, 238);
   --secondary-color: rgb(102, 102, 102);
+  --dark-mode: #1a202c;
+  --white: white;
+  --black: black;
 
   --success-color: rgb(25, 135, 83);
 
@@ -64,9 +67,9 @@ ul {
 }
 .nav-item a {
   text-decoration: none;
-  color: black;
+  color: inherit;
   padding: 0.4rem 1rem;
-  background-color: white;
+  background-color: inherit;
   border-radius: 4px;
   transition: 0.4s;
   font-weight: 400;
