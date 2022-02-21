@@ -48,6 +48,7 @@ header {
 }
 .left-nav {
   display: flex;
+  align-items: center;
 }
 .logo {
   margin-left: 0.8rem;
