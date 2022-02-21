@@ -118,6 +118,11 @@ img {
   display: none;
 }
 
+/* for simple nav */
+.demo-component-typo .ui-nav {
+  background-color: var(--light-gray-v2);
+}
+
 @media only screen and (max-width: 600px) {
   html {
     font-size: 75%;
