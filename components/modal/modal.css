@@ -6,7 +6,7 @@
   left: calc(-50vw + 50%);
   right: calc(-50vw + 50%);
   top: calc(-50vh + 50%);
-  bottom: calc(-10vh + 50%);
+  bottom: calc(-50vh + 50%);
   margin: auto;
   z-index: 999;
   background-color: white;
